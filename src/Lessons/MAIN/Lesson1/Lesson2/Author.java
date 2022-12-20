@@ -1,8 +1,8 @@
-package Lessons.MAIN.Lesson2;
+package Lessons.MAIN.Lesson1.Lesson2;
 
 public class Author {
-    public String name;
-    public String surname;
+    private String name;
+    private String surname;
 
     public Author(String name, String surname) {
         this.name = name;

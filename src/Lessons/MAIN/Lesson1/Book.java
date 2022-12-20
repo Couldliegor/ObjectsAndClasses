@@ -1,8 +1,11 @@
 package Lessons.MAIN.Lesson1;
+
+import Lessons.MAIN.Lesson1.Lesson2.Author;
+
 public class Book {
-    public String author;
-    public String bookNick;
-    public int year;
+    private String author;
+    private String bookNick;
+    private int year;
 
     public Book(String author, String bookNick, int year) {
         this.author = author;
