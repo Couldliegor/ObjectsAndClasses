@@ -3,16 +3,16 @@ package Lessons.MAIN.Lesson1;
 import Lessons.MAIN.Lesson1.Lesson2.Author;
 
 public class Book {
-    private String author;
+    private Author author;
     private String bookNick;
     private int year;
 
-    public Book(String author, String bookNick, int year) {
+    public Book(Author author, String bookNick, int year) {
         this.author = author;
         this.bookNick = bookNick;
         this.year = year;
     }
-    public String getAuthor() {
+    public Author getAuthor() {
         return this.author;
     }
     public String getBookNick() {
