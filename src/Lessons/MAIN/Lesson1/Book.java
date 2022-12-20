@@ -1,12 +1,21 @@
 package Lessons.MAIN.Lesson1;
 public class Book {
     public String author;
-    public String name;
+    public String bookNick;
     public int year;
 
-    public Book(String author, String name, int year) {
+    public Book(String author, String bookNick, int year) {
         this.author = author;
-        this.name = name;
+        this.bookNick = bookNick;
         this.year = year;
+    }
+    public String getAuthor() {
+        return this.author;
+    }
+    public String getBookNick() {
+        return this.bookNick;
+    }
+    public int getYear() {
+        return this.year;
     }
 }
