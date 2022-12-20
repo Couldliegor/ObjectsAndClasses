@@ -1,4 +1,4 @@
-package Lessons;
+package Lessons.MAIN;
 
 public class Main {
     public static void main(String[] args) {
